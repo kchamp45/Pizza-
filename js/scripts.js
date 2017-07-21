@@ -53,14 +53,11 @@ $(document).ready(function() {
     var inputZip = $("#zip").val();
     var newPizzaOrder = new Pizza(inputTopping, inputSize, inputQty);
     var newCustomer = new Customer(inputName, inputStreet, inputCity, inputState, inputZip);
-    $("#total").text("$" + newPizzaOrder.calcPrice());
-    $("#customer").append(newCustomer.fullInfo() + "<span class='btn btn-primary' id='done'>Got it!</span>");
+    $("#total").append("$" + newPizzaOrder.calcPrice());
+    $("#customer").append(newCustomer.fullInfo());
     $("#receipt").show();
     $("#delivery").hide();
 
     resetFields();
-  });
-  $("#done").click(function() {
-    $("#customer").parent().remove();
   });
 });
