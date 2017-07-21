@@ -1,7 +1,16 @@
+
+body {
+  background-color: tan;
+}
 #receipt {
   display: none;
+  color: blue;
 }
 #heading {
   color: red;
   text-align: center;
+}
+.yummy img {
+  display: block;
+  margin: 0 auto;
 }

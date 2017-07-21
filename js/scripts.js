@@ -1,6 +1,6 @@
 //business logic
 function Pizza(topping, size, quantity) {
-  this.topping = size;
+  this.topping = topping;
   this.size = size;
   this.quantity = quantity;
 }
@@ -8,8 +8,9 @@ function Pizza(topping, size, quantity) {
 var initialPrice = 10;
 
  Pizza.prototype.calcPrice = function() {
-  return (initialPrice + this.topping + this.size) * this.quantity;
+   return (initialPrice + this.topping + this.size) * this.quantity;
  }
+
  function resetFields() {
   $("#top").val("");
   $("#size").val("");
@@ -25,7 +26,7 @@ $(document).ready(function() {
     var inputSize = parseInt($("#size").val());
     var inputQty = parseInt($("#qty").val());
     var newPizzaOrder = new Pizza(inputTopping, inputSize, inputQty);
-
+    
   $("#total").text("$" + newPizzaOrder.calcPrice());
   $("#receipt").show();
 });
