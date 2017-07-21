@@ -22,7 +22,7 @@ With this application, a user can order pizza.  The user can choose the toppings
 
 ## _Setup:_
 
-Click on this link http://kchamp45.github.io/pizza.
+Click on this link http://kchamp45.github.io/pizza-.
 Choose your topping and size of pizza.
 Get a total cost at the end.
 

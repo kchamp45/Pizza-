@@ -34,7 +34,6 @@ function resetFields() {
   $("#zip").val("");
   $(".form-control").val("");
 }
-
 //UI logic
 $(document).ready(function() {
   $("#deliveryOption").click(function() {
