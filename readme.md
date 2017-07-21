@@ -10,15 +10,15 @@ With this application, a user can order pizza.  The user can choose the toppings
 
 ## _Specifications:_
 
-*_Calculate costs, from initial set price, based on chosen topping:
-  *_Input example: cheese;
-  *_Output example: 10;
-*_Calculate costs, from initial set price, based on size of pizza chosen:
-  *_Input example: large;
-  *_Output example: 12;
-*_Return a total:
-  *_Input example: Cheese, Large;
-  *_Output example: 12;
+* _Calculate costs based on chosen topping:_
+  * _Input example: cheese;_
+  * _Output example: 10;_
+* _Calculate costs based on size of pizza chosen:_
+  * _Input example: large;_
+  * _Output example: 12;_
+* _Return a total:_
+  * _Input example: Cheese, Large;_
+  * _Output example: 12;_
 
 ## _Setup:_
 
