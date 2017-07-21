@@ -14,15 +14,10 @@
       <div class="well yummy">
         <img src="img/yPizza.jpg" alt="Cheese Pizza">
       </div>
-
       <div class="pizza well">
         <form id="pizza-form">
           <h3>Select a topping:</h3>
           <div class="form-group">
-          <!-- <input type="checkbox" name="topping" value= 0 id="top">Cheese<br>
-          <input type="checkbox" name="topping" value= 1 id="top">Veggies<br>
-          <input type="checkbox" name="topping" value= 2 id="top">Pepperoni<br>
-          <input type="checkbox" name="topping" value= 3 id="top">Meat Combo<br> -->
             <select class="form-control" id="top">
               <option value=0>Cheese</option>
               <option value=1>Veggies</option>
@@ -39,24 +34,55 @@
               <option value=2>Large</option>
               <option value=3>X-Large</option>
             </select>
-            <!-- <input type="checkbox" name="size" value= 0>Small<br>
-            <input type="checkbox" name="size" value= 1>Medium<br>
-            <input type="checkbox" name="size" value= 2>Large<br>
-            <input type="checkbox" name="size" value= 3>X-Large<br> -->
           </div>
 
-          <h3>Enter the number of pizzas you want:<div class="form-group">
+          <h3>Enter the number of pizzas you want:</h3>
           <div class="form-group">
             <input type=number class="form-control" id="qty">
           </div>
+
+          <div class="row">
+            <div class="col-md-6" id="delivery">
+              <div class="form-group">
+                <label for="name">Your name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+
+              <div class="form-group">
+                <label for="street">Street</label>
+                <input type="text" class="form-control" id="street">
+              </div>
+
+              <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city">
+              </div>
+
+              <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" class="form-control" id="state">
+              </div>
+
+              <div class="form-group">
+                <label for="zip">Zip Code</label>
+                <input type="number" class="form-control" id="zip">
+              </div>
+            </div>
+
+            <div class="col-md-6" id="receipt">
+              <p>Here is your receipt:<br><span id="customer"></span><br>
+                Total: <span id="total"></span></p>
+            </div>
+
+          </div>
+
+          <span class="btn btn-primary" id="deliveryOption">For Delivery</span>
+
           <button type="submit" class="btn btn-primary">Add</button>
+
+
         </form>
       </div>
     </div>
-
-    <div id="receipt">
-      <p>Here is your total: <span id="total"></span></p>
-    </div>
-
   </body>
 </html>
