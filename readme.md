@@ -14,11 +14,11 @@ With this application, a user can order pizza.  The user can choose the toppings
   * _Input example: cheese;_
   * _Output example: 10;_
 * _Calculate costs based on size of pizza chosen:_
-  * _Input example: large;_
+  * _Input example: cheese, large;_
   * _Output example: 12;_
-* _Return a total:_
-  * _Input example: Cheese, Large;_
-  * _Output example: 12;_
+* _Calculate costs based on quantity chosen:_
+  * _Input example: Cheese, Large, 2;_
+  * _Output example: 24;_
 
 ## _Setup:_
 
