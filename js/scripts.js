@@ -43,9 +43,9 @@ $(document).ready(function() {
     $("#receipt").show();
     $("#delivery").hide();
 
-    $("#top").val("");
-    $("#size").val("");
-    $("#qty").val("");
+    // $("#top").val("");
+    // $("#size").val("");
+    // $("#qty").val("");
     // $("#name").val("");
     // $("#street").val("");
     // $("#city").val("");
